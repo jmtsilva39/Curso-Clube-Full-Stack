@@ -1,7 +1,9 @@
 <?php
 
-$names = ['Alexandre', 'Maria', 'João'];
+$names = ['Jonez', 'Roberto', 'Alexandre', 'Maria', 'João'];
 
-for ($i=0; $i < ; $i++) { 
-    echo $names[$i];    
+for ($i=0; $i < count($names) ; $i++) { 
+    echo $names[$i] . ' ';    
 }
+
+
