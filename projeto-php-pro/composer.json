@@ -1,0 +1,25 @@
+{
+    "name": "jmtsilva/projeto-php-pro",
+    "description": "php-profissional",
+    "autoload": {
+        "psr-4": {
+            "Jmtsilva\\ProjetoPhpPro\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jonez de Mello Toffani da Silva",
+            "email": "jmts39@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "files": [
+            "app/helpers/constante.php",
+            "app/router/router.php"
+        ],
+        "psr-4": {
+            "app\\":"app"
+        }
+    }
+}
